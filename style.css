@@ -1,0 +1,69 @@
+body{
+    background-color: #65737e;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.userNameInput{
+    width: 400px;
+    height: 40px;
+    border-radius: 35px;
+    padding: 20px;
+    font-size: 1.25em;
+    border: 2px solid #343d46;
+}
+
+.userInfoCard{
+    width: 300px;
+    background: #ffff;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 1rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,19);
+}
+
+.carBody{
+    padding: 20px;
+}
+
+.carBody>h1,h2,h3,h4{
+    text-align: center;
+}
+
+.cardItemBody{
+    display: inline-block;
+}
+
+.cardRow{
+    display: flex;
+}
+
+.itemsSpaceBetween{
+    justify-content: space-between;
+}
+
+.btn{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+    padding: .5em;
+    border-radius: 5px;
+}
+
+.btnBlue{
+    background-color: #6495ed;
+}
+
+.btnGrey{
+    background-color: #343d46;
+}
+
+.searchBtn{
+    border : none;
+}
