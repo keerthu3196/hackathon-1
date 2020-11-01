@@ -59,10 +59,10 @@ function addList(posts)
     fetchData(posts.repos_url).then((repos)=>{
         console.log(repos);})
 
-    infoDiv.append(userName,userLogin,userBio,divRepo,profile);
+    infoDiv.append(userName,userBio,divRepo,profile);
 
     let div = document.createElement('div');
-    div.append(avatar,infoDiv);
+    div.append(infoDiv);
     return div;
     //userInfoDiv.append(avatar,infoDiv)
 }
