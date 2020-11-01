@@ -54,10 +54,7 @@ function addList(posts)
     profile.target = "_blank";
     profile.href = posts.html_url;
     profile.classList.add('btn','btnBlue');
-    profile.innerHTML = "Visit Profile";
-
-    fetchData(posts.repos_url).then((repos)=>{
-        console.log(repos);})
+    profile.innerHTML = "Visit Repo";
 
     infoDiv.append(userName,userBio,divRepo,profile);
 
