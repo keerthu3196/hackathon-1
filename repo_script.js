@@ -16,18 +16,12 @@ div_row.setAttribute("class", "row");
 
 function addList(posts)
 {
-    let avatar = document.createElement('img');
-    avatar.src = posts.avatar_url;
-    avatar.height = 300;
 
     let infoDiv = document.createElement('div');
     infoDiv.classList.add('cardBody');
 
     let userName = document.createElement('h1');
     userName.innerHTML = posts.full_name;
-
-    let userLogin = document.createElement('h2');
-    userLogin.innerHTML = posts.login;
 
     let userBio = document.createElement('p');
     userBio.innerHTML = posts.description;
